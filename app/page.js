@@ -1,6 +1,9 @@
-import "@/sass/main.sass";
-import "@/sass/pages/home.sass";
+import BlogGrid from "@/sections/BlogGrid";
 
 export default function Home() {
-  return "Home Page";
+  return (
+    <main className="home">
+      <BlogGrid />
+    </main>
+  );
 }
