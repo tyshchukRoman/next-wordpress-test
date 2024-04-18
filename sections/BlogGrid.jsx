@@ -7,8 +7,6 @@ const BlogGrid = async () => {
   const res = await fetch(POSTS_LIST_URL);
   const posts = await res.json();
 
-  console.log(posts);
-
   return (
     <Container>
       <div className="blog-grid">

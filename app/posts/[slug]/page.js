@@ -6,8 +6,6 @@ export default async function SinglePost({ params: { slug } }) {
   const posts = await res.json();
   const post = posts[0];
 
-  console.log(posts);
-
   return (
     <main className="single-post">
       <Container>
